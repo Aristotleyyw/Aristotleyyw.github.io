@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
   }
@@ -30,4 +31,38 @@
     color: white;
     transition: background-color 0.2s, color 0.2s;
   }
+=======
+* {
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    font-family: Helvetica, sans-serif;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(32, 64, 86);
+    color: rgb(32, 64, 86);
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 64, 86);;
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
+  }
+>>>>>>> Aristotleyyw-patch-1
  
